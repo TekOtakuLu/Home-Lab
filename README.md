@@ -35,6 +35,11 @@ Home Lab setup using Cisco Packet Tracer and Oracle VirtualBox with Kali Linux a
   - Allocated more RAM/CPU
   - Enabled hardware acceleration
   - Stored VMs on External Drives
+### Issue VM Won't Start
+- Solution:
+  - Enabled virtualization in BIOS/UEFI settings (AMD Chip)
+  - Hyper-V was disabled in Widows hosts
+  - Virtualization was disabled as seen in Task Manager
 
 ## Network Settings | Information has be redacted for Security reasons
 
@@ -47,4 +52,4 @@ Home Lab setup using Cisco Packet Tracer and Oracle VirtualBox with Kali Linux a
 
 Example below.
 
-
+![image alt](https://github.com/TekOtakuLu/Home-Lab/blob/32c031e8cc2fbb451ad356aac7b8d6169ac13956/Kali-linux-network-config.png)
